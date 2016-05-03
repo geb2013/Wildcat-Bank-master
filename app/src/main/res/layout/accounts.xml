@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accounts"
+        android:id="@+id/accounts_textView"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:textAlignment="center"
+        android:background="#2b1ec2"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicCheckingIMG"
+        android:layout_below="@+id/accounts_textView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/basicchecking"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/investmentsIMG"
+        android:src="@drawable/savings"
+        android:layout_below="@+id/savingsIMG"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savingsIMG"
+        android:src="@drawable/investments"
+        android:layout_below="@+id/basicCheckingIMG"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
